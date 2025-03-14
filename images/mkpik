@@ -1,0 +1,2 @@
+#!/bin/sh
+pikchr --svg-only system_diagram.pik | sed 's/^<svg/<svg width="256"/'>system_diagram.svg

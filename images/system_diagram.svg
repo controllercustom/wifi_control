@@ -1,0 +1,23 @@
+<svg width="256" xmlns='http://www.w3.org/2000/svg' style='font-size:initial;' class="pikchr" viewBox="0 0 289.21 411.84">
+<path d="M81.5904,32.4L207.619,32.4L207.619,2.16L81.5904,2.16Z"  style="fill:rgb(255,228,196);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="144.605" y="17.28" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Voice Control</text>
+<polygon points="144.605,86.4 140.285,74.88 148.925,74.88" style="fill:rgb(0,0,0)"/>
+<path d="M144.605,32.4L144.605,80.64"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M77.6736,136.8L211.536,136.8L211.536,86.4L77.6736,86.4Z"  style="fill:rgb(255,228,196);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="144.605" y="101.52" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">iPhone or iPad</text>
+<text x="144.605" y="121.68" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">running Safari</text>
+<polygon points="144.605,190.8 140.285,179.28 148.925,179.28" style="fill:rgb(0,0,0)"/>
+<path d="M144.605,136.8L144.605,185.04"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M119.146,221.04L170.064,221.04L170.064,190.8L119.146,190.8Z"  style="fill:rgb(255,228,196);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="144.605" y="205.92" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">WiFi</text>
+<polygon points="144.605,275.04 140.285,263.52 148.925,263.52" style="fill:rgb(0,0,0)"/>
+<path d="M144.605,221.04L144.605,269.28"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M2.16,305.28L287.05,305.28L287.05,275.04L2.16,275.04Z"  style="fill:rgb(255,228,196);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="144.605" y="290.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Pi Pico W, Pi Pico 2 W, or ESP32</text>
+<polygon points="144.605,359.28 140.285,347.76 148.925,347.76" style="fill:rgb(0,0,0)"/>
+<path d="M144.605,305.28L144.605,353.52"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M35.7408,409.68L253.469,409.68L253.469,359.28L35.7408,359.28Z"  style="fill:rgb(255,228,196);stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="144.605" y="374.4" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Motors, servos, relays,</text>
+<text x="144.605" y="394.56" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">TV IR sender, LEDs, etc.</text>
+</svg>
+

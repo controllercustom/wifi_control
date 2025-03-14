@@ -1,0 +1,10 @@
+down
+box "Voice Control" fill Bisque fit
+arrow 75%
+box "iPhone or iPad" "running Safari" fill Bisque fit
+arrow 75%
+box "WiFi" fill Bisque fit
+arrow 75%
+box "Pi Pico W, Pi Pico 2 W, or ESP32" fill Bisque fit
+arrow 75%
+box "Motors, servos, relays," "TV IR sender, LEDs, etc." fill Bisque fit
