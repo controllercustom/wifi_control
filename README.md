@@ -40,6 +40,21 @@ screen is nearly identical so it is not shown.
 
 ![iPad Accessibility Voice Control options](./images/ipad/enable_voice_control.jpg)
 
+## Control an LED using Windows 11 Voice Access
+
+![Windows 11 Chrome WiFiControl.local](./images/win11/chrome.jpg)
+
+Since the buttons have labels, the LED can be turned on by saying "click LED
+on".
+
+![Windows 11 Chrome WiFiControl.local show grid](./images/win11/show_grid.jpg)
+
+Turn on the mouse grid by saying "show grid". Saying "click 6" turns the LED off.
+
+![Windows 11 Chrome WiFiControl.local show numbers](./images/win11/show_numbers.jpg)
+
+Turn on the mouse numbers by saying "show numbers". Saying "click 27" turns the LED on.
+
 ## Hardware
 
 One of the following.

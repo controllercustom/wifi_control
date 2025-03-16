@@ -35,3 +35,4 @@ secrets.h
 *.png
 *.xcf
 *.html
+*original
