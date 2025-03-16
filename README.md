@@ -2,7 +2,7 @@
 
 iPhones and iPads have numerous accessibility features such as voice control
 and eye gaze tracking (newer models). MacOS computers have built-in support for
-camera based head tracking. Windows computers support various accessibilty
+camera based head tracking. Windows computers support various accessibility
 methods such as eye gaze and camera based head tracking, etc. with the
 installation of third party software.
 
@@ -15,7 +15,7 @@ supported boards are Raspberry Pi Pico W, Raspberry Pi Pico 2 W, and ESP32 with
 WiFi.
 
 Other access methods such as eye gaze and head tracking may also be used but
-the focus here is on Apple Accessiblity Voice Control.
+the focus here is on Apple Accessibility Voice Control.
 
 For simplicity, a single LED is supported but any hardware a microcontroller
 can control may have a web page interface. For example, motors, servos, relays,
@@ -27,7 +27,7 @@ LED strings and arrays, TV IR senders, etc.
 
 ![iPad Safari WiFiControl screen](./images/ipad/voice_control.jpg)
 
-Safari is connected to the webserver on the WiFi board with Voice Control
+Safari is connected to the web server on the WiFi board with Voice Control
 enabled. Since the application is trivial, there are only two options on the
 web page for LED on and LED off. The targets are large as possible to make them
 easy to press. The LED on the WiFi board can be controlled by touching the
@@ -84,7 +84,7 @@ left at default values.
 Once the Board option is set to "ESP32 Dev Module", the other options are left at
 default values. This board does not have a built-in LED but other variants do.
 
-![IDE build options for ESP23 Dev Module](./images/build_options_eps32_dev_module.jpg)
+![IDE build options for ESP32 Dev Module](./images/build_options_eps32_dev_module.jpg)
 
 
 ## Libraries
