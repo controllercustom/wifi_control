@@ -103,17 +103,17 @@ document.addEventListener("DOMContentLoaded", start);
 </script>
 </head>
 <body>
-<table>
-<tbody>
-<tr>
-<td id="LED_on">LED On</td>
-<td id="LED_off">LED Off</td>
-</tr>
-</tbody>
-</table>
-<br>
-<div id="keyCodes">
-</div>
+  <table>
+    <tbody>
+      <tr>
+        <td id="LED_on"><button>LED On</button></td>
+        <td id="LED_off"><button>LED Off</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <div id="keyCodes">
+  </div>
 </body>
 </html>
 )rawliteral";
