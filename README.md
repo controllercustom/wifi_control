@@ -60,7 +60,7 @@ Turn on the mouse numbers by saying "show numbers". Saying "click 27" turns the 
 One of the following.
 
 * Pi Pico W
-* Pi Pico W 2 (untested)
+* Pi Pico 2 W
 * ESP32 with WiFi
 
 ## Software
