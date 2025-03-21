@@ -78,19 +78,20 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
       {
         DBG_printf("[%u] get Text: [%d] %s \r\n", num, length, payload);
 
-        char *event = (char *)malloc(length + 1);  // get space for NUL terminated string
-        if (event != NULL) {
-          memcpy(event, payload, length);
-          event[length] = '\0';
-          if (strcmp("LED_on", event) == 0) {
-            digitalWrite(led, HIGH);
-          } else if (strcmp("LED_off", event) == 0) {
-            digitalWrite(led, LOW);
-          } else {
-            DBG_print("Ignoring event: ");
-            DBG_println(event);
-          }
-          free(event);
+        char event[80+1];
+        size_t safe_length = length;
+        if (length > (sizeof(event) - 1)) {
+          safe_length = sizeof(event) - 1;
+        }
+        memcpy(event, payload, safe_length);
+        event[safe_length] = '\0';
+        if (strcmp("LED_on", event) == 0) {
+          digitalWrite(led, HIGH);
+        } else if (strcmp("LED_off", event) == 0) {
+          digitalWrite(led, LOW);
+        } else {
+          DBG_print("Ignoring event: ");
+          DBG_println(event);
         }
       }
       break;
