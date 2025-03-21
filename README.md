@@ -1,13 +1,12 @@
 # wifi_control -- Add voice control to your Arduino project
 
-iPhones and iPads have numerous accessibility features such as voice control
-and eye gaze tracking (newer models). MacOS computers have built-in support for
-camera based head tracking. Windows computers support various accessibility
-methods such as eye gaze and camera based head tracking, etc. with the
-installation of third party software.
-
-Microcontrollers do not handle eye gaze tracking and general speech
-recognition.
+Apple iPhones and iPads have numerous accessibility features such as voice
+control and eye gaze tracking (newer models). MacOS computers have built-in
+support for camera based head tracking and voice control. Windows computers
+with the installation of third party software support various accessibility
+methods such as eye gaze and camera based head tracking, etc. Windows 11
+Accessibility supports "Voice Access" which is similar to "Voice Control" on
+Apple devices.
 
 This Arduino project demonstrates the use of a web page interface to bridge
 between iPhone and iPad Voice Control and microcontroller boards with WiFi. The
@@ -22,6 +21,16 @@ can control may have a web page interface. For example, motors, servos, relays,
 LED strings and arrays, TV IR senders, etc.
 
 <kbd><img alt="Block diagram showing Voice Control via WiFi to Pi Pico W, Pi Pico 2 W boards, or ESP32" src="./images/system_diagram.svg"></kbd>
+
+Both Apple and Microsoft promise Voice Control and Voice Access do all voice
+processing on the device. Voice recordings are not sent to servers in the
+Internet cloud. But be sure to turn off any voice diagnostic or improvement
+options because enabling these options do send recordings back to Apple or
+Microsoft.
+
+If you are using Amazon Echo devices, be aware as of March 28, 2025 all voice
+recordings will be sent to Amazon servers for processing. The private local
+voice processing option will be removed.
 
 ## Control an LED using Voice Control
 
